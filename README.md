@@ -1,42 +1,36 @@
-# Nuxt 3 Minimal Starter
+# Project Name
+Pic Store frontend
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Description
 
-## Setup
+Pic Store is application where you can save images
 
-Make sure to install the dependencies:
+## Prerequisites
 
-```bash
-# yarn
-yarn install
+Ensure you have the following installed before proceeding:
 
-# npm
-npm install
+- Node.js (version 18 or greater)
 
-# pnpm
-pnpm install
-```
+## Installation
 
-## Development Server
+Follow these steps to set up the project:
 
-Start the development server on `http://localhost:3000`
+1. **Install Node.js**  
+   Ensure you have Node.js version 18 or greater installed on your machine. You can download the latest version from the [official Node.js website](https://nodejs.org/).
 
-```bash
-npm run dev
-```
+   To verify your Node.js installation, run:
+   ```bash
+   node -v
 
-## Production
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-Build the application for production:
+### Running the Project
+1. To start the development server, use:
+    ```sh
+    npm run dev
+    ```
 
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+2. For other available scripts, refer to the `package.json` file.
